@@ -1,0 +1,3 @@
+{
+    "MONGOOSE_PORT":"mongodb://localhost:27017"
+}
