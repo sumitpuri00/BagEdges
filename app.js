@@ -46,8 +46,8 @@ app.use('/users',userRoute)
 app.use('/products',productRoute)
 app.use('/owner',ownerRoute)
 
-
-app.listen(3000,(err)=>{
+const port=process.env.PORT || 3001
+app.listen(port ,(err)=>{
     try {
         
         console.log('now, server is running.... ');
